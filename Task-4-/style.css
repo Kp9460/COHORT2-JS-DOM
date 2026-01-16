@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 35vw;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1vw;
+}
+.card p{
+    font-size: 1.7vw;
+    font-weight: 800;
+    padding: 2vw 0vw;
+    text-align: center;
+}
+.card p span{
+    color: royalblue;
+}
+.outer{
+    height: 1.3vw;
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    border-radius: 1vw;
+}
+.inner{
+    height: 100%;
+    width: 0%;
+    background-color: green;
+    border-radius: 1vw;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 1vw;
+}
+.bottom h2{
+    font-size: 3.7vw;
+    font-weight: 900;
+}
+.bottom button{
+    font-size: 1.8vw;
+    background-color: green;
+    border-radius: 5px;
+    padding: 0.5vw 1.5vw;
+    border: none;
+    cursor: pointer;
+}
+.bottom button:active{
+    scale: 0.95;
+}
