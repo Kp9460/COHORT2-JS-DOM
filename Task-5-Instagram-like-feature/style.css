@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    /* height: 30vw; */
+    width: 20vw;
+    background-color: white;
+    border-radius: 0.5vw;
+    position: relative;
+}
+.card div{
+    position: relative;
+    overflow: hidden;
+}
+.card img{
+    height: 85%;  
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1.5vw;
+    padding: 1vw;
+}
+.card h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.card i{
+    font-size: 6vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    background-image: url(https://imgs.search.brave.com/OwCcydF22WyfPBkys9JNge1KDW5kcYXzU3jJ6414--I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA2LzU1LzUwLzY5/LzM2MF9GXzY1NTUw/NjkxMV8xcDEzUHNH/S005M1N1Q2VQa0xV/Y2Q3NVRXMUJ6dTRq/Zy5qcGc);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: translate(-50%,-50%) scale(0) rotate(-60deg);
+    transition: all cubic-bezier(.65,1,.77,1.44 ) 0.5s;
+}

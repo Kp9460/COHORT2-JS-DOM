@@ -24,7 +24,4 @@ btn.addEventListener('click',()=> {
         btn.innerHTML = 'Dowloaded'
         btn.style.opacity = '0.5'
     }, num*100);
-
-    
-
 });
