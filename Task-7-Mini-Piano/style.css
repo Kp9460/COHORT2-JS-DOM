@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    color: white;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.897);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+  
+h1{
+    background-color: #db4848;
+    font-size: 100px;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
