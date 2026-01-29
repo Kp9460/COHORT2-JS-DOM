@@ -42,7 +42,7 @@ section{
     height: 100%;
     width: 100%;
     position: relative;
-    background-color: crimson;
+    /* background-color: crimson; */
     overflow: hidden;
     border-radius: 10px;
     margin-bottom: 1vw;
@@ -93,6 +93,7 @@ section{
 .reel .right{
     padding: 2vw;
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 1.5vw;
     text-align: center;
@@ -118,8 +119,37 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 50px;
+    cursor: pointer;
 }
 
 .love{
     color: red;
+}
+.right>div h4{
+    pointer-events: none;
+}
+.right>div h6{
+    pointer-events: none;
+}
+
+.mute{
+    background-color: #333;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.mute i{
+    font-size: 22px;
+    pointer-events: none;
+}
+.mute:active{
+    scale: 0.95;
 }
