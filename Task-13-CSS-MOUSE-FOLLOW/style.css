@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(100, 88, 88);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    anchor-name: --some-anchor;
+}
+
+.box{
+    height: 60px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.box:hover{
+    anchor-name: --some-anchor;
+}
+.box h1{
+    font-size: 1.2rem;
+    color: red;
+}
+.anchor{
+    background-color: #a5a5a5;
+    border-radius: 10px;
+    position: absolute;
+    top: anchor(top);
+    left: anchor(left);
+    bottom: anchor(bottom);
+    right: anchor(right);
+    pointer-events: none;
+    position-anchor: --some-anchor;
+    transition: all 0.3s linear;
+    mix-blend-mode: difference;
+}
+
